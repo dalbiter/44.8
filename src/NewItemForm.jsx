@@ -24,6 +24,7 @@ const NewItemForm = ({ addItem }) => {
     return (
         <form onSubmit={handleSubmit}>
             <label htmlFor="name">Product</label>
+            <range></range>
             <input id='name'
                    type='text'
                    name='name'
