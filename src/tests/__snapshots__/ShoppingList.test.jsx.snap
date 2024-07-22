@@ -1,0 +1,58 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`matches snaphsot 1`] = `
+<DocumentFragment>
+  <div>
+    <h3>
+      Shopping List
+    </h3>
+    <form>
+      <label
+        for="name"
+      >
+        Product
+      </label>
+      <input
+        id="name"
+        name="name"
+        placeholder="Item Name"
+        type="text"
+        value=""
+      />
+      <label
+        for="qty"
+      >
+        Quantity:  
+      </label>
+      <input
+        max="10"
+        min="1"
+        name="qty"
+        type="range"
+        value="qty"
+      />
+      <button>
+        Add to List
+      </button>
+    </form>
+    <div>
+      <ul>
+        <li>
+          Product Name: peanut butter
+        </li>
+        <li>
+          Quantity: 2
+        </li>
+      </ul>
+      <ul>
+        <li>
+          Product Name: whole milk
+        </li>
+        <li>
+          Quantity: 1
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;
