@@ -4,14 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import UserForm from './UserForm'
 import ShoppingList from './ShoppingList'
+import SimpleForm from './SimpleForm'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <ShoppingList />
       <UserForm />
+      <SimpleForm />
     </>
   )
 }
